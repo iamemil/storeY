@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Comfortaa:300,400");
+.products .row {
+  margin: 10px;
+}
+
+.products .row .products-item {
+  border-radius: 20px;
+  border: 1px transparent;
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 100% !important;
+}
+
+.products .row .products-item img {
+  border-radius: 20px;
+  transition: all 500ms;
+}
+
+.products .row .products-item:hover img {
+  transform: scale(1.1);
+  transition: all 500ms;
+}
+
+.products .row .products-item .card-body {
+  position: absolute;
+  bottom: 0;
+  background: linear-gradient(0deg, black, transparent);
+  color: white;
+  font-family: 'Comfortaa', cursive;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  width: 100%;
+}
+
+.products .row .products-item .card-body:hover {
+  color: white;
+}
+
+.products .row .products-item .card-body .badge {
+  font-weight: 300;
+}
+/*# sourceMappingURL=style.css.map */
